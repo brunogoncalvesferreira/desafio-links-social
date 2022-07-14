@@ -1,0 +1,60 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300;600&display=swap');
+
+  html{
+    font-family: "Poppins";
+    font-size: 62.5%;
+  }
+
+  .avatar{
+        display: flex;
+        justify-content: center;
+        margin-top: 7.875rem;
+  }
+.avatar img{
+    padding: 4px;
+    border: 2px solid var(--purple);
+    border-radius: 50%;
+}
+.link-rede-social{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9375rem;
+}
+.link-rede-social a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--purple);
+}
+.botoes-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8125rem;
+    margin-top: 2.0625rem;
+}
+.botoes-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    width: 20.375rem;
+    height: 3.0625rem ;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--purple);
+}
+.grupo-icones{
+    display: flex;
+    justify-content: center;
+    gap: 1.8125rem;
+    margin-top: 4.25rem;
+    padding-bottom: 9.6875rem;
+}
